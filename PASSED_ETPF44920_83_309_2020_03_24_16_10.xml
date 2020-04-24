@@ -1,0 +1,627 @@
+<testsuites tests="499" failures="0" disabled="20" errors="0" timestamp="2020-03-24T16:10:36" time="4.442" name="AllTests" version="83.309" model="ETPF44920" swNumber="422392" displayType="IF17_DISPLAY" consolePhotoLink="![ETPF44920](https://pdm.iconfitness.com/pdm/solidworks/plm/console%20photos/etpf44920.png)" specSheetLink="https://drive.google.com/file/d/1s5Tpffpf5KkQh0AFetafblut6XzVZBHT/view?usp=drivesdk">
+  <testsuite name="FeedBackBike" tests="1" failures="0" disabled="0" errors="0" time="0.012">
+    <testcase name="TestSetup" status="run" time="0.012" classname="FeedBackBike"/>
+  </testsuite>
+  <testsuite name="RickenBackerTest" tests="4" failures="0" disabled="0" errors="0" time="0.258">
+    <testcase name="TestSystemSettings" status="run" time="0" classname="RickenBackerTest"/>
+    <testcase name="TestCalorieWorkout" status="run" time="0.248" classname="RickenBackerTest"/>
+    <testcase name="Autofanspeed" status="run" time="0" classname="RickenBackerTest"/>
+    <testcase name="TestBurnRateMetricButtons" status="run" time="0.01" classname="RickenBackerTest"/>
+  </testsuite>
+  <testsuite name="PowerRingTest" tests="9" failures="0" disabled="0" errors="0" time="0.122">
+    <testcase name="TestSystemSettings" status="run" time="0" classname="PowerRingTest"/>
+    <testcase name="TestWorkButton" status="run" time="0.005" classname="PowerRingTest"/>
+    <testcase name="TestBurnRateButtons" status="run" time="0.033" classname="PowerRingTest"/>
+    <testcase name="TestBurnRateMetricButtons" status="run" time="0.009" classname="PowerRingTest"/>
+    <testcase name="SystemTimeoutReset" status="run" time="0.016" classname="PowerRingTest"/>
+    <testcase name="SystemTimeoutResumed" status="run" time="0.007" classname="PowerRingTest"/>
+    <testcase name="SystemTimeoutMultipleKeysPressed" status="run" time="0.025" classname="PowerRingTest"/>
+    <testcase name="TempoButtonOverflow" status="run" time="0.006" classname="PowerRingTest"/>
+    <testcase name="workoutRestart" status="run" time="0.021" classname="PowerRingTest"/>
+  </testsuite>
+  <testsuite name="EmulatorStartup" tests="2" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="testEmulator" status="run" time="0" classname="EmulatorStartup"/>
+    <testcase name="testSetupAndTearDown" status="run" time="0.002" classname="EmulatorStartup"/>
+  </testsuite>
+  <testsuite name="DeskTreadmillTest" tests="1" failures="0" disabled="0" errors="0" time="0.026">
+    <testcase name="TestSetup" status="run" time="0.026" classname="DeskTreadmillTest"/>
+  </testsuite>
+  <testsuite name="BikeShortBus" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="TestSetup" status="run" time="0" classname="BikeShortBus"/>
+  </testsuite>
+  <testsuite name="Treadmill" tests="145" failures="0" disabled="3" errors="0" time="3.723">
+    <testcase name="Fitpro_Set_Goal_Calories" status="run" time="0.016" classname="Treadmill" caseId="818582"/>
+    <testcase name="Fitpro_Set_Mode_While_Console_Is_Locked" status="run" time="0.004" classname="Treadmill" caseId="984779"/>
+    <testcase name="Locked_Console_Does_Not_Go_To_Maintenance" status="run" time="0.001" classname="Treadmill" caseId="1215202"/>
+    <testcase name="Can_Lock_In_DMK" status="run" time="0.001" classname="Treadmill" caseId="1230941" NotSupported="1"/>
+    <testcase name="Can_Unlock_In_DMK" status="run" time="0" classname="Treadmill" caseId="1230941" NotSupported="1"/>
+    <testcase name="Fitpro_Write_Read_Kph" status="run" time="0" classname="Treadmill" caseId="3606697"/>
+    <testcase name="Fitpro_Write_Read_Grade" status="run" time="0.001" classname="Treadmill" caseId="3606698"/>
+    <testcase name="Fitpro_Set_Goal_Pulse" status="run" time="0.001" classname="Treadmill" caseId="817104"/>
+    <testcase name="Fitpro_Set_Goal_Distance" status="run" time="0.124" classname="Treadmill" caseId="807560"/>
+    <testcase name="Fitpro_Set_Goal_Time" status="run" time="0.127" classname="Treadmill" caseId="807559"/>
+    <testcase name="Fitpro_Set_User_Times" status="run" time="0.522" classname="Treadmill" caseId="802015"/>
+    <testcase name="Fitpro_Simulate_Map_Workout" status="run" time="0.555" classname="Treadmill" caseId="790807"/>
+    <testcase name="Workout_Start_End_2mph_Section" status="run" time="0.001" classname="Treadmill" caseId="183098"/>
+    <testcase name="Time_Workout_Totals" status="run" time="0" classname="Treadmill" caseId="183099"/>
+    <testcase name="Calorie_Workout_Totals" status="run" time="0" classname="Treadmill" caseId="282330" NotSupported="1"/>
+    <testcase name="Distance_Workout_Totals" status="run" time="0.001" classname="Treadmill" caseId="282331" NotSupported="1"/>
+    <testcase name="Max_Speed_Matches_Default_Units" status="run" time="0" classname="Treadmill" caseId="183101"/>
+    <testcase name="Lap_Distance_Is_400m_And_Resets" status="run" time="0.276" classname="Treadmill" caseId="183102"/>
+    <testcase name="Metric_Start_Speed_2kph" status="run" time="0.001" classname="Treadmill" caseId="183104"/>
+    <testcase name="English_Start_Speed_1mph" status="run" time="0.001" classname="Treadmill" caseId="183106"/>
+    <testcase name="Incline_Keeps_Value_Dmk_Replace" status="run" time="0" classname="Treadmill" caseId="183107"/>
+    <testcase name="Club_Incline_Resets_In_Idle" status="run" time="0.001" classname="Treadmill" caseId="183109" NotSupported="1"/>
+    <testcase name="Hold_Stop_Button_Replace_Dmk_Goes_To_Maintenance" status="run" time="0.001" classname="Treadmill" caseId="183111"/>
+    <testcase name="Hold_Start_Button_Replace_Dmk_Does_Nothing" status="run" time="0" classname="Treadmill" caseId="183112"/>
+    <testcase name="Hold_Speed_Up_Button_Replace_Dmk_Does_Nothing" status="run" time="0.001" classname="Treadmill" caseId="183114"/>
+    <testcase name="Return_To_Correct_Mode_On_Dmk_Key_Replace" status="run" time="0.001" classname="Treadmill" caseId="183117"/>
+    <testcase name="Dmk_Pull_Pause_To_Results_After_30s" status="run" time="0.017" classname="Treadmill" caseId="183118"/>
+    <testcase name="Dmk_Pull_Running_To_Results_After_30s" status="run" time="0.016" classname="Treadmill" caseId="183119"/>
+    <testcase name="Dmk_Timer_Reset" status="run" time="0.029" classname="Treadmill" caseId="792129"/>
+    <testcase name="Pause_To_Results_After_2mins" status="run" time="0.058" classname="Treadmill" caseId="183120"/>
+    <testcase name="Results_To_Idle_Timeout" status="run" time="0.071" classname="Treadmill" caseId="183121"/>
+    <testcase name="Keys_Error_Beep_In_Idle" status="run" time="0" classname="Treadmill" caseId="183122"/>
+    <testcase name="Keys_Error_Beep_In_Running" status="run" time="0.001" classname="Treadmill" caseId="183123"/>
+    <testcase name="Keys_Error_Beep_In_Pause" status="run" time="0.001" classname="Treadmill" caseId="183124"/>
+    <testcase name="Keys_Error_In_Results" status="run" time="0.001" classname="Treadmill" caseId="183125"/>
+    <testcase name="Warmup_Mode_Total_Distance_5min" status="run" time="0.509" classname="Treadmill" caseId="183126"/>
+    <testcase name="English_Pause_To_Warmup_Starts_At_1mph" status="run" time="0.001" classname="Treadmill" caseId="183127"/>
+    <testcase name="Pause_Resumes_To_Warmup_Cooldown_After_QuickSpeed" status="run" time="0.001" classname="Treadmill" caseId="792130"/>
+    <testcase name="Metric_Pause_To_Warmup_Starts_At_2kph" status="run" time="0" classname="Treadmill" caseId="183128"/>
+    <testcase name="Metric_Resume_Mode_Transition_And_Speed_2kph" status="run" time="0.001" classname="Treadmill" caseId="183129"/>
+    <testcase name="Metric_Resume_Mode_Transition_And_Speed_1mph" status="run" time="0.001" classname="Treadmill" caseId="183130"/>
+    <testcase name="Cooldown_Mode_Total_Distance_3min" status="run" time="0.296" classname="Treadmill" caseId="183131"/>
+    <testcase name="English_Pause_To_Cooldown_Starts_At_1mph" status="run" time="0" classname="Treadmill" caseId="183132"/>
+    <testcase name="Metric_Pause_To_Cooldown_Starts_At_2kph" status="run" time="0.001" classname="Treadmill" caseId="183133"/>
+    <testcase name="Running_To_Cooldown_Keeps_Speed_2mph_Or_Less_English" status="run" time="0.001" classname="Treadmill" caseId="183135"/>
+    <testcase name="Running_To_Cooldown_Keeps_Speed_3kph_Or_Less_Metric" status="run" time="0.001" classname="Treadmill" caseId="183136"/>
+    <testcase name="Running_To_Cooldown_Speed_Reduces_To_2mph_English" status="run" time="0.001" classname="Treadmill" caseId="183137"/>
+    <testcase name="Running_To_Cooldown_Speed_Reduces_To_3kph_Metric" status="run" time="0.001" classname="Treadmill" caseId="183138"/>
+    <testcase name="Club_Correct_Bitfields_Saved_In_NV" status="run" time="0.001" classname="Treadmill" caseId="183134" NotSupported="1"/>
+    <testcase name="DISABLED_Auto_Fan_Speed_Changes_With_Workout_Speed" status="notrun" time="0" classname="Treadmill"/>
+    <testcase name="Fan_Turns_Off_When_Dmk_Out" status="run" time="0" classname="Treadmill" caseId="183139"/>
+    <testcase name="Fitpro_Set_And_Check_Speed" status="run" time="0.002" classname="Treadmill" caseId="183140"/>
+    <testcase name="Fitpro_Speed_Commands_Ignored_In_DMK_Mode" status="run" time="0.001" classname="Treadmill" caseId="183141"/>
+    <testcase name="Fitpro_Mode_Commands_Ignored_In_DMK_Mode" status="run" time="0.001" classname="Treadmill" caseId="183142"/>
+    <testcase name="Fitpro_Grade_Commands_Ignored_In_DMK_Mode" status="run" time="0.001" classname="Treadmill" caseId="183143"/>
+    <testcase name="Speed_Limited_By_Incline" status="run" time="0.001" classname="Treadmill" caseId="183145"/>
+    <testcase name="DISABLED_Club_Manual_Workout_3s_Countdown_Start_Key" status="notrun" time="0" classname="Treadmill"/>
+    <testcase name="DISABLED_Club_Program_Workout_3s_Countdown_Start_Key" status="notrun" time="0" classname="Treadmill"/>
+    <testcase name="Club_Console_Resets_After_60s_Inactive" status="run" time="0" classname="Treadmill" caseId="183148" NotSupported="1"/>
+    <testcase name="Club_Connected_Ends_Workout_On_Stop_Key" status="run" time="0" classname="Treadmill" caseId="3364805" NotSupported="1"/>
+    <testcase name="Work_Key_Initial_Press_Error_Beeps" status="run" time="0.001" classname="Treadmill" caseId="183149" NotSupported="1"/>
+    <testcase name="Work_Key_Hold_For_2s_Saves_Values_Running" status="run" time="0.001" classname="Treadmill" caseId="183150" NotSupported="1"/>
+    <testcase name="Work_Key_Press_Sets_Values_Running" status="run" time="0.001" classname="Treadmill" caseId="183151" NotSupported="1"/>
+    <testcase name="Work_Key_Saved_Values_Dont_Reset_In_Pause" status="run" time="0.001" classname="Treadmill" caseId="183152" NotSupported="1"/>
+    <testcase name="Work_Key_Saved_Speed_Resets_In_Idle" status="run" time="0.001" classname="Treadmill" caseId="183153" NotSupported="1"/>
+    <testcase name="Recovery_Key_Initial_Press_Error_Beeps" status="run" time="0" classname="Treadmill" caseId="183154" NotSupported="1"/>
+    <testcase name="Recovery_Key_Hold_For_2s_Saves_Values_Running" status="run" time="0" classname="Treadmill" caseId="183155" NotSupported="1"/>
+    <testcase name="Recovery_Key_Press_Sets_Values_Running" status="run" time="0.001" classname="Treadmill" caseId="183156" NotSupported="1"/>
+    <testcase name="Recovery_Key_Saved_Values_Dont_Reset_In_Pause" status="run" time="0" classname="Treadmill" caseId="183157" NotSupported="1"/>
+    <testcase name="Recovery_Key_Speed_Resets_In_Idle" status="run" time="0.001" classname="Treadmill" caseId="183158" NotSupported="1"/>
+    <testcase name="Console_Resets_After_30s_Inactive_In_Idle" status="run" time="0.013" classname="Treadmill" caseId="183159"/>
+    <testcase name="Stop_Key_Press_Set_Mode_And_Beep" status="run" time="0" classname="Treadmill" caseId="183160"/>
+    <testcase name="Hold_Speed_Up_Key_Error_Beeps_At_Max" status="run" time="0.001" classname="Treadmill" caseId="183163"/>
+    <testcase name="Speed_Up_Key_Error_Beeps_At_Max" status="run" time="0.001" classname="Treadmill" caseId="183161"/>
+    <testcase name="Speed_Down_Key_Error_Beeps_At_Min" status="run" time="0" classname="Treadmill" caseId="183162"/>
+    <testcase name="Speed_Up_Key_Increments_700ms_English" status="run" time="0.001" classname="Treadmill" caseId="348477"/>
+    <testcase name="English_Hold_Speed_Down_Key_Decrements_700ms" status="run" time="0.001" classname="Treadmill" caseId="183369"/>
+    <testcase name="Metric_Hold_Speed_Up_Key_Increments_700ms" status="run" time="0.002" classname="Treadmill" caseId="183368"/>
+    <testcase name="Speed_Down_Key_Decrements_700ms_Metric" status="run" time="0.001" classname="Treadmill" caseId="348682"/>
+    <testcase name="Quick_Speed_Keys_Set_And_Beep_Mph" status="run" time="0.018" classname="Treadmill" caseId="183370"/>
+    <testcase name="Quick_Speed_1mph_Starts_160kph" status="run" time="0.001" classname="Treadmill" caseId="1352373"/>
+    <testcase name="Quick_Speed_Keys_Set_And_Beep_Kph" status="run" time="0.001" classname="Treadmill" caseId="183371" NotSupported="1"/>
+    <testcase name="Speed_Up_Key_Increments_Running_English" status="run" time="0" classname="Treadmill" caseId="348987"/>
+    <testcase name="English_Speed_Down_Key_Decrements_Running" status="run" time="0.001" classname="Treadmill" caseId="183372"/>
+    <testcase name="Speed_Up_Key_Increments_Running_Metric" status="run" time="0.001" classname="Treadmill" caseId="348988"/>
+    <testcase name="Speed_Down_Key_Decrements_Running_Metric" status="run" time="0.001" classname="Treadmill" caseId="348989"/>
+    <testcase name="Speed_Up_Key_Error_Not_Running" status="run" time="0" classname="Treadmill" caseId="183373"/>
+    <testcase name="Speed_Down_Key_Error_Not_Running" status="run" time="0.001" classname="Treadmill" caseId="183374"/>
+    <testcase name="English_Start_Key_Beep_Start_At_1mph" status="run" time="0.001" classname="Treadmill" caseId="183375"/>
+    <testcase name="Quickspeed_Key_Required_Start_Request" status="run" time="0" classname="Treadmill" caseId="568327"/>
+    <testcase name="Metric_Start_Key_Beep_Start_At_2kph" status="run" time="0.001" classname="Treadmill" caseId="183376"/>
+    <testcase name="Burn_Rate_Up_Key_Beeps_And_Increment" status="run" time="0.001" classname="Treadmill" caseId="183378" NotSupported="1"/>
+    <testcase name="Burn_Rate_Down_Key_Beeps_And_Decrement" status="run" time="0" classname="Treadmill" caseId="183379" NotSupported="1"/>
+    <testcase name="Burn_Rate_Up_Key_Error_Beeps_At_Max" status="run" time="0.001" classname="Treadmill" caseId="183380" NotSupported="1"/>
+    <testcase name="Burn_Rate_Down_Key_Error_Beeps_At_Min" status="run" time="0" classname="Treadmill" caseId="183381" NotSupported="1"/>
+    <testcase name="Distance_Accuracy" status="run" time="0.13" classname="Treadmill" caseId="183382"/>
+    <testcase name="Manual_Running_Calories_With_Negative_Incline" status="run" time="0.001" classname="Treadmill" caseId="183385" NotSupported="1"/>
+    <testcase name="Manual_Running_Calories_Multiple_Speed_Time_Incline_Weight" status="run" time="0.453" classname="Treadmill" caseId="183388"/>
+    <testcase name="Manual_WarmUp_Calories" status="run" time="0.031" classname="Treadmill" caseId="183386"/>
+    <testcase name="Manual_Cool_Down_Calories" status="run" time="0.12" classname="Treadmill" caseId="183387"/>
+    <testcase name="Calories_Dont_Reset_In_Pause_Results_Modes" status="run" time="0.045" classname="Treadmill" caseId="183389"/>
+    <testcase name="Calories_Reset_In_Idle" status="run" time="0.034" classname="Treadmill" caseId="183390"/>
+    <testcase name="Warmup_Only_Changes_Warmup_Calories" status="run" time="0.031" classname="Treadmill" caseId="183391"/>
+    <testcase name="Cooldown_Only_Changes_Cooldown_Calories" status="run" time="0.14" classname="Treadmill" caseId="183392"/>
+    <testcase name="HR_Workout_Does_Not_End_On_Stop_Press" status="run" time="0" classname="Treadmill" caseId="190109"/>
+    <testcase name="HR_Workout_Total_Time_Accuracy" status="run" time="0.001" classname="Treadmill" caseId="190110"/>
+    <testcase name="HR_Workout_Has_Warmup_Section" status="run" time="0" classname="Treadmill" caseId="190111"/>
+    <testcase name="HR_Workout_Has_Cooldown_Section" status="run" time="0" classname="Treadmill" caseId="190112"/>
+    <testcase name="HR_Workout_No_Pulse_No_Change_First_45s" status="run" time="0.001" classname="Treadmill" caseId="190113"/>
+    <testcase name="HR_Workout_No_Pulse_Speed_Incline_Decreases_Every_15s" status="run" time="0" classname="Treadmill" caseId="190114"/>
+    <testcase name="HR_Workout_High_Pulse_Speed_Is_Limited_After_Set_Above_Max" status="run" time="0.001" classname="Treadmill" caseId="190115"/>
+    <testcase name="HR_Workout_No_Change_If_Pulse_Not_Settled" status="run" time="0" classname="Treadmill" caseId="190116"/>
+    <testcase name="HR_Performance_Workout_Runs_Correctly" status="run" time="0" classname="Treadmill" caseId="190117"/>
+    <testcase name="HR_Performance_Workout_High_Pulse_Speed_Decreases_Every_15s" status="run" time="0.001" classname="Treadmill" caseId="190118"/>
+    <testcase name="HR_Performance_Workout_High_Pulse_Incline_Decreases_Every_15s" status="run" time="0" classname="Treadmill" caseId="190119" NotSupported="1"/>
+    <testcase name="HR_Performance_Workout_Low_Pulse_Incline_Increases_Every_60s" status="run" time="0.001" classname="Treadmill" caseId="190120" NotSupported="1"/>
+    <testcase name="HR_Performance_Workout_Low_Pulse_Speed_Increases_Every_15s" status="run" time="0" classname="Treadmill" caseId="190121" NotSupported="1"/>
+    <testcase name="HR_Weight_Loss_Workout_Runs_Correctly" status="run" time="0" classname="Treadmill" caseId="192264" NotSupported="1"/>
+    <testcase name="HR_Weight_Loss_Workout_High_Pulse_Speed_Decreases_Every_15s" status="run" time="0.001" classname="Treadmill" caseId="192265" NotSupported="1"/>
+    <testcase name="HR_Weight_Loss_Workout_High_Pulse_Incline_Decreases_Every_15s" status="run" time="0" classname="Treadmill" caseId="192266" NotSupported="1"/>
+    <testcase name="HR_Weight_Loss_Workout_Low_Pulse_Incline_Increases_Every_15s" status="run" time="0.001" classname="Treadmill" caseId="268794" NotSupported="1"/>
+    <testcase name="HR_Weight_Loss_Workout_Low_Pulse_Speed_Increases_Every_15s" status="run" time="0.001" classname="Treadmill" caseId="192268" NotSupported="1"/>
+    <testcase name="Fitness_Test_User_Cant_Change_Incline" status="run" time="0" classname="Treadmill" caseId="192269" NotSupported="1"/>
+    <testcase name="Fitness_Test_Stop_Key_Press_Ends_Workout" status="run" time="0.001" classname="Treadmill" caseId="192270" NotSupported="1"/>
+    <testcase name="Fitness_Test_End_On_Dmk_Pull" status="run" time="0" classname="Treadmill" caseId="192271" NotSupported="1"/>
+    <testcase name="Fitness_Test_Incline_Is_One_Percent" status="run" time="0.001" classname="Treadmill" caseId="192272" NotSupported="1"/>
+    <testcase name="Fitness_Test_Pause_Ends_Workout" status="run" time="0.001" classname="Treadmill" caseId="192273" NotSupported="1"/>
+    <testcase name="Fitness_Test_Bruce_Gerkin_Wfi_End_On_Pulse_Above_Target" status="run" time="0" classname="Treadmill" caseId="192274" NotSupported="1"/>
+    <testcase name="Fitness_Test_Bruce_Gerkin_Wfi_Does_Not_End_On_Pulse_Below_Target" status="run" time="0.001" classname="Treadmill" caseId="192275" NotSupported="1"/>
+    <testcase name="Fitness_Test_Bruce_Gerkin_Wfi_End_If_User_Changes_Speed" status="run" time="0" classname="Treadmill" caseId="192275" NotSupported="1"/>
+    <testcase name="Execute_Time_Based_Dumbbell_Workouts" status="run" time="0.001" classname="Treadmill" caseId="308443" NotSupported="1"/>
+    <testcase name="Execute_Calorie_Based_Dumbbell_Workouts" status="run" time="0.001" classname="Treadmill" caseId="308444" NotSupported="1"/>
+    <testcase name="Dumbbell_Workouts_DMK_Keeps_Led_Status" status="run" time="0" classname="Treadmill" caseId="308445" NotSupported="1"/>
+    <testcase name="Dumbbell_Workouts_Results_Mode_Turn_Off_Led" status="run" time="0.001" classname="Treadmill" caseId="308446" NotSupported="1"/>
+    <testcase name="Dumbbell_Workouts_Maintenance_Mode_Led_On" status="run" time="0" classname="Treadmill" caseId="403204" NotSupported="1"/>
+    <testcase name="Execute_Time_Based_Crosswalk_Workouts" status="run" time="0" classname="Treadmill" caseId="308443" NotSupported="1"/>
+    <testcase name="Execute_Calorie_Based_Crosswalk_Workouts" status="run" time="0.001" classname="Treadmill" caseId="308444" NotSupported="1"/>
+    <testcase name="Crosswalk_Workouts_DMK_Keeps_Led_Status" status="run" time="0" classname="Treadmill" caseId="308445" NotSupported="1"/>
+    <testcase name="Crosswalk_Workouts_Results_Mode_Turn_Off_Led" status="run" time="0.001" classname="Treadmill" caseId="308446" NotSupported="1"/>
+    <testcase name="Crosswalk_Workouts_Maintenance_Mode_Led_On" status="run" time="0" classname="Treadmill" caseId="403204" NotSupported="1"/>
+    <testcase name="Dmk_All_Keys_Error_Beep" status="run" time="0.003" classname="Treadmill" caseId="380123"/>
+    <testcase name="Demo_Mode_On_Off" status="run" time="0.001" classname="Treadmill" caseId="588842"/>
+    <testcase name="IdleLockout_Start_Key_QuickSpeed_Keys_Error" status="run" time="0" classname="Treadmill" caseId="422813"/>
+    <testcase name="IdleLockout_Mode_Cant_Be_Changed" status="run" time="0" classname="Treadmill" caseId="423135"/>
+    <testcase name="IdleLockout_DMK_Still_Works" status="run" time="0.001" classname="Treadmill" caseId="423137"/>
+  </testsuite>
+  <testsuite name="Freestrider" tests="2" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="Stop_Key_Goes_To_Pause_Accelerometer" status="run" time="0.001" classname="Freestrider" caseId="192368" NotSupported="1"/>
+    <testcase name="During_Rpm_Lockout_In_Pause_Ignore_Accelerometer" status="run" time="0.001" classname="Freestrider" caseId="192371" NotSupported="1"/>
+  </testsuite>
+  <testsuite name="Console" tests="67" failures="0" disabled="6" errors="0" time="0.23">
+    <testcase name="DISABLED_Fitpro_Read" status="notrun" time="0" classname="Console"/>
+    <testcase name="Valid_Time_Values_For_Time_Workouts" status="run" time="0.002" classname="Console" caseId="177560"/>
+    <testcase name="Check_Multiple_Keys" status="run" time="0.002" classname="Console" caseId="2022519"/>
+    <testcase name="Valid_Calorie_Values_For_Calorie_Workouts" status="run" time="0.002" classname="Console" caseId="177561"/>
+    <testcase name="Valid_Distance_Values_For_Distance_Workouts" status="run" time="0.001" classname="Console" caseId="177562"/>
+    <testcase name="No_Zero_Values_For_Workouts" status="run" time="0.002" classname="Console" caseId="177563"/>
+    <testcase name="Config_Byte_Offset" status="run" time="0.001" classname="Console" caseId="177564"/>
+    <testcase name="Lower_Priority_Pulse_Is_Ignored" status="run" time="0.001" classname="Console" caseId="177565"/>
+    <testcase name="Higher_Priority_Pulse_Overrides_Lower" status="run" time="0.002" classname="Console" caseId="180462"/>
+    <testcase name="Pulse_Average_Accuracy" status="run" time="0.014" classname="Console" caseId="180463"/>
+    <testcase name="Check_Valid_Mode_Transitions" status="run" time="0.001" classname="Console" caseId="347864"/>
+    <testcase name="Check_Invalid_Mode_Transitions" status="run" time="0.001" classname="Console" caseId="347865"/>
+    <testcase name="Correct_Bitfields_Are_Supported" status="run" time="0" classname="Console" caseId="180466"/>
+    <testcase name="DISABLED_Rower" status="notrun" time="0" classname="Console"/>
+    <testcase name="Set_And_Check_Positive_Incline_Via_Fitpro" status="run" time="0.001" classname="Console" caseId="180467"/>
+    <testcase name="Set_And_Check_Negative_Incline_Via_Fitpro" status="run" time="0.001" classname="Console" caseId="180468" NotSupported="1"/>
+    <testcase name="Fitpro_Set_Height" status="run" time="0.001" classname="Console" caseId="794572"/>
+    <testcase name="Fitpro_Set_Gender" status="run" time="0" classname="Console" caseId="794570"/>
+    <testcase name="Fitpro_Set_Units" status="run" time="0.001" classname="Console" caseId="180469"/>
+    <testcase name="Set_And_Check_Valid_Modes_Via_Fitpro" status="run" time="0.002" classname="Console" caseId="347866"/>
+    <testcase name="Incline_Does_Not_Go_Above_Max" status="run" time="0" classname="Console" caseId="180528"/>
+    <testcase name="Incline_Does_Not_Go_Below_Min" status="run" time="0.001" classname="Console" caseId="198479"/>
+    <testcase name="Incline_Remembered_After_Start_Stop" status="run" time="0" classname="Console" caseId="410369"/>
+    <testcase name="Verify_Grade_Routine" status="run" time="0.062" classname="Console" caseId="421901" swNumber="422392" model="ETPF44920"/>
+    <testcase name="Incline_Up_Key_Error_Beeps_At_Max" status="run" time="0.001" classname="Console" caseId="180529"/>
+    <testcase name="Incline_Down_Key_Error_Beeps_At_Min" status="run" time="0.001" classname="Console" caseId="180530"/>
+    <testcase name="DISABLED_Hold_Incline_Up_Key_Increments_700ms" status="notrun" time="0" classname="Console"/>
+    <testcase name="DISABLED_Hold_Incline_Down_Key_Decrements_700ms" status="notrun" time="0" classname="Console"/>
+    <testcase name="Quick_Incline_Keys_Set_And_Beep" status="run" time="0" classname="Console" caseId="180533"/>
+    <testcase name="Incline_Up_Key_Increments_And_Beep" status="run" time="0.001" classname="Console" caseId="180534"/>
+    <testcase name="Incline_Down_Key_Decrements_And_Beep" status="run" time="0.001" classname="Console" caseId="180535"/>
+    <testcase name="Hold_Incline_Up_Key_Error_Beeps_At_Max" status="run" time="0" classname="Console" caseId="180536"/>
+    <testcase name="Hold_Incline_Down_Key_Error_Beeps_At_Min" status="run" time="0.001" classname="Console" caseId="180537"/>
+    <testcase name="BLE_Key_Beeps" status="run" time="0.001" classname="Console" caseId="180538"/>
+    <testcase name="Hold_Bluetooth_Key" status="run" time="0" classname="Console" caseId="348171"/>
+    <testcase name="Age_Up_Key_Increments_And_Beep" status="run" time="0.001" classname="Console" caseId="180544" NotSupported="1"/>
+    <testcase name="Age_Down_Decrements_And_Beep" status="run" time="0.001" classname="Console" caseId="180545" NotSupported="1"/>
+    <testcase name="Age_Up_Key_Error_Beeps_At_Max" status="run" time="0" classname="Console" caseId="180546" NotSupported="1"/>
+    <testcase name="Age_Down_Key_Error_Beeps_At_Min" status="run" time="0.001" classname="Console" caseId="180547" NotSupported="1"/>
+    <testcase name="Standard_Metric_Key_Toggles_Units_And_Beep" status="run" time="0" classname="Console" caseId="180549"/>
+    <testcase name="Debounce_Is_Implemented_On_Keys" status="run" time="0.001" classname="Console" caseId="180551"/>
+    <testcase name="Fitpro_Set_Weight" status="run" time="0.001" classname="Console" caseId="792128"/>
+    <testcase name="Fitpro_Set_Age" status="run" time="0.001" classname="Console" caseId="792127"/>
+    <testcase name="Fitpro_Set_Pulse" status="run" time="0.001" classname="Console" caseId="791918"/>
+    <testcase name="Fitpro_Set_Volume" status="run" time="0.001" classname="Console" caseId="791917"/>
+    <testcase name="Fitpro_Set_Fan_Speed" status="run" time="0" classname="Console" caseId="790808" NotSupported="1"/>
+    <testcase name="Fan_Turns_Off_After_30s_In_Idle_Mode" status="run" time="0" classname="Console" caseId="180555" NotSupported="1"/>
+    <testcase name="Fan_Stays_On_Pause_Results" status="run" time="0.001" classname="Console" caseId="394366" NotSupported="1"/>
+    <testcase name="DISABLED_No_Grade_Supported_No_Column_In_Workout_Profile" status="notrun" time="0" classname="Console"/>
+    <testcase name="Start_Key_Required_Start_Request" status="run" time="0" classname="Console" caseId="183377"/>
+    <testcase name="Start_Key_Non_Tablet_Requests_Start" status="run" time="0" classname="Console" caseId="1669638"/>
+    <testcase name="Disconnect_Clears_Start_Request_Flags" status="run" time="0.001" classname="Console" caseId="1673935"/>
+    <testcase name="Fan_Read_From_Fitpro" status="run" time="0" classname="Console" caseId="180555" NotSupported="1"/>
+    <testcase name="Set_And_Check_Weight_Via_Fitpro" status="run" time="0.001" classname="Console" caseId="180467"/>
+    <testcase name="All_Keys_Error_Beep_When_Locked" status="run" time="0.001" classname="Console" caseId="1229597" NotSupported="1"/>
+    <testcase name="Can_Only_Lock_On_Idle_Mode" status="run" time="0.001" classname="Console" caseId="1229080" NotSupported="1"/>
+    <testcase name="Can_Only_Lock_Unlock_On_Idle_Mode_With_KeyCode" status="run" time="0" classname="Console" caseId="1230500" NotSupported="1"/>
+    <testcase name="DISABLED_Has_Lock_KeyCode" status="notrun" time="0" classname="Console"/>
+    <testcase name="Club_Unit_Does_Not_Have_Lock_KeyCode" status="run" time="0.001" classname="Console" caseId="1247610" NotSupported="1"/>
+    <testcase name="Cannot_Lock_Club_Units" status="run" time="0" classname="Console" caseId="1248960" NotSupported="1"/>
+    <testcase name="Fitpro_Lock_Unlock_Console" status="run" time="0.002" classname="Console" caseId="949716"/>
+    <testcase name="Fitpro_Read_Console_Lock_Bitfield" status="run" time="0.005" classname="Console" caseId="949717"/>
+    <testcase name="Fitpro_Read_Values_Not_Zero" status="run" time="0.086" classname="Console" caseId="1395260"/>
+    <testcase name="Running_To_Cooldown_After_Distance_Goal_Reached" status="run" time="0.001" classname="Console" caseId="183384" NotSupported="1"/>
+    <testcase name="Running_To_Cooldown_After_Calories_Goal_Reached" status="run" time="0.009" classname="Console" caseId="568328"/>
+    <testcase name="Vertical_Meter_Gain_Accuracy" status="run" time="0.005" classname="Console" caseId="183144"/>
+    <testcase name="Autofan_Supported_For_Tablet_Console" status="run" time="0.001" classname="Console" caseId="1554414" NotSupported="1"/>
+  </testsuite>
+  <testsuite name="Aerobic" tests="47" failures="0" disabled="2" errors="0" time="0.041">
+    <testcase name="Workout_Totals_Accurate" status="run" time="0.001" classname="Aerobic" caseId="406698" NotSupported="1"/>
+    <testcase name="Spinbike_Distance_Workout_Total" status="run" time="0" classname="Aerobic" caseId="798705" NotSupported="1"/>
+    <testcase name="Pause_Mode_Rpm_Lockout_Is_5s" status="run" time="0" classname="Aerobic" caseId="192277" NotSupported="1"/>
+    <testcase name="Ignore_Tach_During_Rpm_Lockout" status="run" time="0.001" classname="Aerobic" caseId="192278" NotSupported="1"/>
+    <testcase name="Any_Key_Press_Wakes_Console_From_Sleep_Mode" status="run" time="0.001" classname="Aerobic" caseId="192279" NotSupported="1"/>
+    <testcase name="Tach_Wakes_Console_From_Sleep_Mode" status="run" time="0" classname="Aerobic" caseId="192280" NotSupported="1"/>
+    <testcase name="Tach_Required_Requests_Start" status="run" time="0.001" classname="Aerobic" caseId="565650" NotSupported="1"/>
+    <testcase name="Speed_Resets" status="run" time="0.001" classname="Aerobic" caseId="1352374" NotSupported="1"/>
+    <testcase name="Tach_Before_5min_Resets_Sleep_Timeout" status="run" time="0" classname="Aerobic" caseId="192281" NotSupported="1"/>
+    <testcase name="Idle_To_Sleep_After_5mins_Of_Inactivity" status="run" time="0.001" classname="Aerobic" caseId="192282" NotSupported="1"/>
+    <testcase name="Warmup_To_Pause_After_30s_Of_No_Tach" status="run" time="0.001" classname="Aerobic" caseId="192283" NotSupported="1"/>
+    <testcase name="Tach_Before_30s_Stays_In_Warmup" status="run" time="0" classname="Aerobic" caseId="192284" NotSupported="1"/>
+    <testcase name="Any_Key_Press_Before_5mins_Resets_Sleep_Timeout" status="run" time="0.001" classname="Aerobic" caseId="192285" NotSupported="1"/>
+    <testcase name="Total_Belt_And_Distance_Not_Saved_In_NV" status="run" time="0.001" classname="Aerobic" caseId="192286" NotSupported="1"/>
+    <testcase name="Fan_Stays_Off_From_Sleep_Wake_By_Key_Press" status="run" time="0" classname="Aerobic" caseId="192287" NotSupported="1"/>
+    <testcase name="Fan_Stays_Off_From_Sleep_Wake_By_Tach" status="run" time="0.001" classname="Aerobic" caseId="192288" NotSupported="1"/>
+    <testcase name="Fitpro_Set_And_Check_Resistance" status="run" time="0.001" classname="Aerobic" caseId="192289" NotSupported="1"/>
+    <testcase name="Fitpro_Write_Read_Resistance" status="run" time="0" classname="Aerobic" caseId="3606699" NotSupported="1"/>
+    <testcase name="Fitpro_Sleep_Mode_Cant_Be_Set" status="run" time="0.001" classname="Aerobic" caseId="192290" NotSupported="1"/>
+    <testcase name="Fitpro_No_Sleep_While_Connected_To_Ifit" status="run" time="0.001" classname="Aerobic" caseId="192291" NotSupported="1"/>
+    <testcase name="Work_Key_Initial_Beeps_And_Sets_Incline_To_Zero" status="run" time="0" classname="Aerobic" caseId="192295" NotSupported="1"/>
+    <testcase name="Work_Key_Hold_For_2s_Saves_Values" status="run" time="0.001" classname="Aerobic" caseId="192292" NotSupported="1"/>
+    <testcase name="Work_Key_Press_Sets_Values" status="run" time="0.001" classname="Aerobic" caseId="192293" NotSupported="1"/>
+    <testcase name="Recovery_Key_Initial_Beeps_And_Sets_Incline_To_Zero" status="run" time="0" classname="Aerobic" caseId="192298" NotSupported="1"/>
+    <testcase name="Recovery_Key_Hold_For_2s_Saves_Values" status="run" time="0.001" classname="Aerobic" caseId="192296" NotSupported="1"/>
+    <testcase name="Recovery_Key_Press_Sets_Values" status="run" time="0.001" classname="Aerobic" caseId="192297" NotSupported="1"/>
+    <testcase name="Start_Key_Starts_Running_Mode" status="run" time="0" classname="Aerobic" caseId="192357" NotSupported="1"/>
+    <testcase name="Start_Key_Running_To_Pause_After_30s_Of_No_Tach" status="run" time="0.001" classname="Aerobic" caseId="192358" NotSupported="1"/>
+    <testcase name="Stop_Key_Goes_To_Pause_Even_If_Tach_Going" status="run" time="0.002" classname="Aerobic" caseId="192359" NotSupported="1"/>
+    <testcase name="Stop_Key_Results_To_Idle_After_3s" status="run" time="0.002" classname="Aerobic" caseId="192360" NotSupported="1"/>
+    <testcase name="Resistance_Up_Key_Error_Beeps_At_Max" status="run" time="0.001" classname="Aerobic" caseId="192361" NotSupported="1"/>
+    <testcase name="Resistance_Down_Key_Error_Beeps_At_Min" status="run" time="0.002" classname="Aerobic" caseId="192362" NotSupported="1"/>
+    <testcase name="Resistance_Up_Key_Increments_1s" status="run" time="0.002" classname="Aerobic" caseId="415519" NotSupported="1"/>
+    <testcase name="Resistance_Down_Key_Decrements_1s" status="run" time="0.001" classname="Aerobic" caseId="415520" NotSupported="1"/>
+    <testcase name="DISABLED_Resistance_Up_Key_Beep_And_Increment" status="notrun" time="0" classname="Aerobic"/>
+    <testcase name="DISABLED_Resistance_Down_Key_Beep_And_Decrement" status="notrun" time="0" classname="Aerobic"/>
+    <testcase name="Quick_Resistance_Keys_Set_And_Beep" status="run" time="0.002" classname="Aerobic" caseId="192365" NotSupported="1"/>
+    <testcase name="IdleLockout_Tach_Does_Not_Start_Console" status="run" time="0.002" classname="Aerobic" caseId="423138" NotSupported="1"/>
+    <testcase name="Avg_Watts_Equals_Watts_When_Constant" status="run" time="0.001" classname="Aerobic" caseId="1395866" NotSupported="1"/>
+    <testcase name="HR_Performance_Workout_High_Pulse_Goal_Rpm_Decreases_Every_15s" status="run" time="0.002" classname="Aerobic" caseId="2414743" NotSupported="1"/>
+    <testcase name="HR_Performance_Workout_High_Pulse_Resistance_Decreases_Every_30s" status="run" time="0.001" classname="Aerobic" caseId="2414744" NotSupported="1"/>
+    <testcase name="HR_Performance_Workout_Low_Pulse_Resistance_Increases_Every_30s" status="run" time="0" classname="Aerobic" caseId="2414745" NotSupported="1"/>
+    <testcase name="HR_Performance_Workout_Low_Pulse_Goal_Rpm_Increases_Every_15s" status="run" time="0.001" classname="Aerobic" caseId="2414746"/>
+    <testcase name="HR_Weight_Loss_Workout_High_Pulse_Resistance_Decreases_Every_30s" status="run" time="0" classname="Aerobic" caseId="2414748"/>
+    <testcase name="HR_Weight_Loss_Workout_High_Pulse_Goal_Rpm_Decreases_Every_15s" status="run" time="0.001" classname="Aerobic" caseId="2414747"/>
+    <testcase name="HR_Weight_Loss_Workout_Low_Pulse_Resistance_Increases_Every_30s" status="run" time="0" classname="Aerobic" caseId="2414750"/>
+    <testcase name="HR_Weight_Loss_Workout_Low_Pulse_Goal_Rpm_Increases_Every_15s" status="run" time="0.001" classname="Aerobic" caseId="2414749" NotSupported="1"/>
+  </testsuite>
+  <testsuite name="uartTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="uartTest"/>
+    <testcase name="singleByteTests" status="run" time="0" classname="uartTest"/>
+    <testcase name="multiByteTests" status="run" time="0" classname="uartTest"/>
+    <testcase name="testPeek" status="run" time="0" classname="uartTest"/>
+    <testcase name="testClears" status="run" time="0" classname="uartTest"/>
+    <testcase name="testLimits" status="run" time="0" classname="uartTest"/>
+  </testsuite>
+  <testsuite name="spiTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="spiTest"/>
+    <testcase name="bitBanged" status="run" time="0" classname="spiTest"/>
+    <testcase name="bitBangedWriteBits" status="run" time="0" classname="spiTest"/>
+  </testsuite>
+  <testsuite name="repTachDriverTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="repTachDriverTest"/>
+  </testsuite>
+  <testsuite name="pwmTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="pwmTest"/>
+  </testsuite>
+  <testsuite name="thumbPulseInit" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="clearValues" status="run" time="0" classname="thumbPulseInit"/>
+  </testsuite>
+  <testsuite name="thumbInterrupt" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="clearValues" status="run" time="0" classname="thumbInterrupt"/>
+  </testsuite>
+  <testsuite name="SparseTableTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="smallTable" status="run" time="0" classname="SparseTableTest"/>
+  </testsuite>
+  <testsuite name="shortBus" tests="7" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="initSbPacket" status="run" time="0" classname="shortBus"/>
+    <testcase name="addSbPacket" status="run" time="0" classname="shortBus"/>
+    <testcase name="addMultiSbPacket" status="run" time="0" classname="shortBus"/>
+    <testcase name="msgHandler" status="run" time="0" classname="shortBus"/>
+    <testcase name="dataInterpreting" status="run" time="0" classname="shortBus"/>
+    <testcase name="multiPacketHandling" status="run" time="0" classname="shortBus"/>
+    <testcase name="multiPacketAndMultipleHandling" status="run" time="0" classname="shortBus"/>
+  </testsuite>
+  <testsuite name="SerialHelpersTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="conversions" status="run" time="0" classname="SerialHelpersTest"/>
+    <testcase name="checksums" status="run" time="0" classname="SerialHelpersTest"/>
+  </testsuite>
+  <testsuite name="chestPulseTaskFunction" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="clearValues" status="run" time="0" classname="chestPulseTaskFunction"/>
+  </testsuite>
+  <testsuite name="ChestInterrupt" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="clearValues" status="run" time="0" classname="ChestInterrupt"/>
+  </testsuite>
+  <testsuite name="rhymebus" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="sendSpeedPackets" status="run" time="0" classname="rhymebus"/>
+    <testcase name="sendInclinePackets" status="run" time="0" classname="rhymebus"/>
+    <testcase name="recieveReply" status="run" time="0" classname="rhymebus"/>
+  </testsuite>
+  <testsuite name="MotorPwmTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ProtoDataCmd" status="run" time="0" classname="MotorPwmTest"/>
+  </testsuite>
+  <testsuite name="lowResDistance" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="lowResDistance"/>
+    <testcase name="getsAndSets" status="run" time="0" classname="lowResDistance"/>
+  </testsuite>
+  <testsuite name="handPulse" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="init" status="run" time="0" classname="handPulse"/>
+  </testsuite>
+  <testsuite name="chestPulseInit" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="clearValues" status="run" time="0" classname="chestPulseInit"/>
+  </testsuite>
+  <testsuite name="handPulseInit" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="clearValues" status="run" time="0" classname="handPulseInit"/>
+  </testsuite>
+  <testsuite name="GradeBasicTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="GradeBasicTest"/>
+  </testsuite>
+  <testsuite name="adtTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ReverseTransvalLookup" status="run" time="0" classname="adtTest"/>
+  </testsuite>
+  <testsuite name="watt" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="watt"/>
+    <testcase name="averageCalculations" status="run" time="0" classname="watt"/>
+    <testcase name="wattTableLookup" status="run" time="0" classname="watt"/>
+    <testcase name="wattTableMiddleRPMCalculation" status="run" time="0" classname="watt"/>
+    <testcase name="wattTableMiddleResistanceCalculation" status="run" time="0" classname="watt"/>
+    <testcase name="wattTableCalculation" status="run" time="0" classname="watt"/>
+    <testcase name="wattTableReverseLookupCalculation" status="run" time="0" classname="watt"/>
+    <testcase name="TreadmillWatts" status="run" time="0" classname="watt"/>
+  </testsuite>
+  <testsuite name="wattFeedback" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="getAccelerationForce" status="run" time="0" classname="wattFeedback"/>
+    <testcase name="testResistiveForce" status="run" time="0" classname="wattFeedback"/>
+    <testcase name="testCoastingSpeed" status="run" time="0" classname="wattFeedback"/>
+  </testsuite>
+  <testsuite name="userTime" tests="6" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="Constructor" status="run" time="0" classname="userTime"/>
+    <testcase name="activateDeactivate" status="run" time="0.001" classname="userTime"/>
+    <testcase name="setResetTime" status="run" time="0" classname="userTime"/>
+    <testcase name="TimmerExpire" status="run" time="0" classname="userTime"/>
+    <testcase name="getActiveTimers" status="run" time="0" classname="userTime"/>
+    <testcase name="getWorkoutTotalTime" status="run" time="0" classname="userTime"/>
+  </testsuite>
+  <testsuite name="userDataTest" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="age" status="run" time="0" classname="userDataTest"/>
+    <testcase name="weight" status="run" time="0" classname="userDataTest"/>
+    <testcase name="height" status="run" time="0" classname="userDataTest"/>
+    <testcase name="gender" status="run" time="0" classname="userDataTest"/>
+    <testcase name="names" status="run" time="0" classname="userDataTest"/>
+  </testsuite>
+  <testsuite name="Speed" tests="16" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="Constructor" status="run" time="0" classname="Speed"/>
+    <testcase name="testConvertMphToKph" status="run" time="0" classname="Speed"/>
+    <testcase name="testConvertKphToMph" status="run" time="0" classname="Speed"/>
+    <testcase name="reset" status="run" time="0" classname="Speed"/>
+    <testcase name="testLimits" status="run" time="0" classname="Speed"/>
+    <testcase name="getsAndSets" status="run" time="0" classname="Speed"/>
+    <testcase name="testAverages" status="run" time="0" classname="Speed"/>
+    <testcase name="testIncrementSpeed" status="run" time="0" classname="Speed"/>
+    <testcase name="testIncrementSpeedEnglish" status="run" time="0" classname="Speed"/>
+    <testcase name="testDecrementSpeed" status="run" time="0" classname="Speed"/>
+    <testcase name="testDecrementSpeedEnglish" status="run" time="0" classname="Speed"/>
+    <testcase name="getPercentOfMax" status="run" time="0" classname="Speed"/>
+    <testcase name="getPercentOfMaxTwo" status="run" time="0" classname="Speed"/>
+    <testcase name="getPercentOfMaxRPM" status="run" time="0" classname="Speed"/>
+    <testcase name="getRawPace" status="run" time="0" classname="Speed"/>
+    <testcase name="getPace" status="run" time="0" classname="Speed"/>
+  </testsuite>
+  <testsuite name="sample2" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="FeatureAppTest" status="run" time="0" classname="sample2"/>
+  </testsuite>
+  <testsuite name="resistance" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="averageCalculations" status="run" time="0" classname="resistance"/>
+    <testcase name="adcinitialValues" status="run" time="0" classname="resistance"/>
+    <testcase name="adclowerLimitTest" status="run" time="0" classname="resistance"/>
+    <testcase name="adcUpperLimitTest" status="run" time="0" classname="resistance"/>
+  </testsuite>
+  <testsuite name="reps" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="reps"/>
+  </testsuite>
+  <testsuite name="Pulse" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="Pulse"/>
+    <testcase name="getsAndSets" status="run" time="0" classname="Pulse"/>
+  </testsuite>
+  <testsuite name="Mode" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="Constructor" status="run" time="0" classname="Mode"/>
+    <testcase name="getsAndSets" status="run" time="0" classname="Mode"/>
+    <testcase name="resumeMode" status="run" time="0" classname="Mode"/>
+    <testcase name="modeTransitions" status="run" time="0" classname="Mode"/>
+    <testcase name="resumeBugTest" status="run" time="0" classname="Mode"/>
+    <testcase name="dmkTimeoutModeTest" status="run" time="0" classname="Mode"/>
+  </testsuite>
+  <testsuite name="maintenanceMode" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="maintenanceMode"/>
+  </testsuite>
+  <testsuite name="keyTest" tests="7" failures="0" disabled="5" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="keyTest"/>
+    <testcase name="getKeyPressDataBit" status="run" time="0" classname="keyTest"/>
+    <testcase name="DISABLED_keyPressRecognized" status="notrun" time="0" classname="keyTest"/>
+    <testcase name="DISABLED_justPressedFlag" status="notrun" time="0" classname="keyTest"/>
+    <testcase name="DISABLED_justReleased" status="notrun" time="0" classname="keyTest"/>
+    <testcase name="DISABLED_WhenKeyWasPressed" status="notrun" time="0" classname="keyTest"/>
+    <testcase name="DISABLED_multiMembraneTest" status="notrun" time="0" classname="keyTest"/>
+  </testsuite>
+  <testsuite name="Grade" tests="7" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="Grade"/>
+    <testcase name="gradeCalculations" status="run" time="0" classname="Grade"/>
+    <testcase name="getsAndSets" status="run" time="0" classname="Grade"/>
+    <testcase name="averageCalculations" status="run" time="0" classname="Grade"/>
+    <testcase name="resetHomeAndClub" status="run" time="0" classname="Grade"/>
+    <testcase name="GradeSpeedLimits" status="run" time="0" classname="Grade"/>
+    <testcase name="GradeSpeedLimitCommand" status="run" time="0" classname="Grade"/>
+  </testsuite>
+  <testsuite name="gearTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="gearTest"/>
+    <testcase name="getSetGearsDumbOption" status="run" time="0" classname="gearTest"/>
+    <testcase name="getKPHFromRPMDumb" status="run" time="0" classname="gearTest"/>
+  </testsuite>
+  <testsuite name="fanTest" tests="3" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="constructor" status="run" time="0" classname="fanTest"/>
+    <testcase name="Reset" status="run" time="0" classname="fanTest"/>
+    <testcase name="TestAutoSpeed" status="run" time="0.001" classname="fanTest"/>
+  </testsuite>
+  <testsuite name="dmkTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="dmkTest"/>
+    <testcase name="debounce" status="run" time="0" classname="dmkTest"/>
+  </testsuite>
+  <testsuite name="displayTest" tests="3" failures="0" disabled="3" errors="0" time="0">
+    <testcase name="DISABLED_nonInitializedTest" status="notrun" time="0" classname="displayTest"/>
+    <testcase name="DISABLED_constructor" status="notrun" time="0" classname="displayTest"/>
+    <testcase name="DISABLED_popUp" status="notrun" time="0" classname="displayTest"/>
+  </testsuite>
+  <testsuite name="configTest" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="configTest"/>
+    <testcase name="twoFeatures" status="run" time="0" classname="configTest"/>
+    <testcase name="seperateBytes" status="run" time="0" classname="configTest"/>
+    <testcase name="configVersion" status="run" time="0" classname="configTest"/>
+    <testcase name="configChecksum" status="run" time="0" classname="configTest"/>
+    <testcase name="updateLogValues" status="run" time="0" classname="configTest"/>
+    <testcase name="readConfigWithCommand" status="run" time="0" classname="configTest"/>
+    <testcase name="writeConfigWithCommand" status="run" time="0" classname="configTest"/>
+    <testcase name="getSystemConfig" status="run" time="0" classname="configTest"/>
+  </testsuite>
+  <testsuite name="caloriesTest" tests="25" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="Treadmill" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Treadmill4MPH" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Treadmill1_8MPS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Treadmill1_797MPS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_100WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="VertElliptical_150WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Fitness_Wt_Mach_150WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_150WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_175WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_200WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_220WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_1WATT" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_1000WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_500WATTS_10S" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Elliptical_500WATTS_4000S" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_150WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_175WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_190WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_200WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_220WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_1WATT" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_1000WATTS" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_500WATTS_10S" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Bike_500WATTS_4000S" status="run" time="0" classname="caloriesTest"/>
+    <testcase name="Treadmill_VO2" status="run" time="0" classname="caloriesTest"/>
+  </testsuite>
+  <testsuite name="buzzTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="buzzTest"/>
+  </testsuite>
+  <testsuite name="burnRate" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="burnRate"/>
+    <testcase name="getsAndSets" status="run" time="0" classname="burnRate"/>
+    <testcase name="ActualBurnRate" status="run" time="0" classname="burnRate"/>
+    <testcase name="DisplayCount" status="run" time="0" classname="burnRate"/>
+  </testsuite>
+  <testsuite name="audioTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="constructor" status="run" time="0" classname="audioTest"/>
+    <testcase name="getAndSet" status="run" time="0" classname="audioTest"/>
+    <testcase name="validateBitfield" status="run" time="0" classname="audioTest"/>
+  </testsuite>
+  <testsuite name="workoutRunnerTest" tests="10" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="ConstructorBike" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="ActivateWorkoutBike" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="IncrementingWorkoutBike" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="TestingWorkout3ColsBike" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="Constructor" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="ActivateWorkout" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="IncrementingWorkout" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="handleWorkoutKey" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="handleDayWeekWorkoutKeys" status="run" time="0" classname="workoutRunnerTest"/>
+    <testcase name="handleManualWorkoutKey" status="run" time="0" classname="workoutRunnerTest"/>
+  </testsuite>
+  <testsuite name="workoutCntrlTest" tests="8" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ReadingWorkout2ColsBike" status="run" time="0" classname="workoutCntrlTest"/>
+    <testcase name="ReadingWorkout3ColsBike" status="run" time="0" classname="workoutCntrlTest"/>
+    <testcase name="ReadingWorkout2Cols" status="run" time="0" classname="workoutCntrlTest"/>
+    <testcase name="ReadingWorkout3Cols" status="run" time="0" classname="workoutCntrlTest"/>
+    <testcase name="ReadingWorkout2Cols3rdWorkout" status="run" time="0" classname="workoutCntrlTest"/>
+    <testcase name="isButtonInWorkout" status="run" time="0" classname="workoutCntrlTest"/>
+    <testcase name="getWorkoutIndexFromProfile" status="run" time="0" classname="workoutCntrlTest"/>
+    <testcase name="getWorkoutButtonTypeIndexFromProfile" status="run" time="0" classname="workoutCntrlTest"/>
+  </testsuite>
+  <testsuite name="Training" tests="5" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CreateATask" status="run" time="0" classname="Training"/>
+    <testcase name="SetupAPeripheral" status="run" time="0" classname="Training"/>
+    <testcase name="SetupADriver" status="run" time="0" classname="Training"/>
+    <testcase name="SetupADevice" status="run" time="0" classname="Training"/>
+    <testcase name="voidPointerTest" status="run" time="0" classname="Training"/>
+  </testsuite>
+  <testsuite name="TaskCntrlTest" tests="10" failures="0" disabled="0" errors="0" time="0.006">
+    <testcase name="Constructor" status="run" time="0" classname="TaskCntrlTest"/>
+    <testcase name="Getters" status="run" time="0" classname="TaskCntrlTest"/>
+    <testcase name="TaskCreator" status="run" time="0" classname="TaskCntrlTest"/>
+    <testcase name="debugStartCount" status="run" time="0" classname="TaskCntrlTest"/>
+    <testcase name="debugcounting" status="run" time="0" classname="TaskCntrlTest"/>
+    <testcase name="CpuPercentage" status="run" time="0" classname="TaskCntrlTest"/>
+    <testcase name="TestUpdateTaskInterval" status="run" time="0.006" classname="TaskCntrlTest"/>
+    <testcase name="TestUpdateTaskIntervalPwm" status="run" time="0" classname="TaskCntrlTest"/>
+    <testcase name="TaskPrioritizer" status="run" time="0" classname="TaskCntrlTest"/>
+    <testcase name="testGetTask" status="run" time="0" classname="TaskCntrlTest"/>
+  </testsuite>
+  <testsuite name="systemControl" tests="3" failures="0" disabled="1" errors="0" time="0.001">
+    <testcase name="Constructor" status="run" time="0.001" classname="systemControl"/>
+    <testcase name="FecpHandler" status="run" time="0" classname="systemControl"/>
+    <testcase name="DISABLED_Averages" status="notrun" time="0" classname="systemControl"/>
+  </testsuite>
+  <testsuite name="sample1" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="kernalTest" status="run" time="0" classname="sample1"/>
+  </testsuite>
+  <testsuite name="errorControl" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="errorControl"/>
+  </testsuite>
+  <testsuite name="DeviceInfoTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="DeviceInfoTest"/>
+  </testsuite>
+  <testsuite name="DeviceDataBitFieldTest" tests="12" failures="0" disabled="0" errors="0" time="0.007">
+    <testcase name="Constructor" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="addDataBitField" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="addingDuplicates" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="addingSameSection" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="addingDifferentSections" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="addingValuesOutOfRange" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="WriteDataFunction" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="invalidWriteDataFunction" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="readDataFunction" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="invalidReadDataFunction" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="bitFieldSizeLookup" status="run" time="0" classname="DeviceDataBitFieldTest"/>
+    <testcase name="bitFieldSizeLookupSpeed" status="run" time="0.007" classname="DeviceDataBitFieldTest"/>
+  </testsuite>
+  <testsuite name="deviceControllerTest" tests="7" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="deviceControllerTest"/>
+    <testcase name="SetCommand" status="run" time="0" classname="deviceControllerTest"/>
+    <testcase name="SetSubDevice" status="run" time="0" classname="deviceControllerTest"/>
+    <testcase name="SetSysSubDevice" status="run" time="0" classname="deviceControllerTest"/>
+    <testcase name="getSubDeviceList" status="run" time="0" classname="deviceControllerTest"/>
+    <testcase name="validateDeviceId" status="run" time="0" classname="deviceControllerTest"/>
+    <testcase name="TestSubSysBitField" status="run" time="0" classname="deviceControllerTest"/>
+  </testsuite>
+  <testsuite name="deviceCommand" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Constructor" status="run" time="0" classname="deviceCommand"/>
+    <testcase name="addingDevice" status="run" time="0" classname="deviceCommand"/>
+    <testcase name="validation" status="run" time="0" classname="deviceCommand"/>
+    <testcase name="handlingCommand" status="run" time="0" classname="deviceCommand"/>
+  </testsuite>
+  <testsuite name="masterCommand" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="getSubDevices" status="run" time="0" classname="masterCommand"/>
+    <testcase name="getCmdsCommand" status="run" time="0" classname="masterCommand"/>
+  </testsuite>
+</testsuites>
