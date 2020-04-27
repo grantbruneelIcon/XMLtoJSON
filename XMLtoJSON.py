@@ -1,28 +1,44 @@
 from pathlib import Path
-import xml.etree.ElementTree as ElementTree
+import xml.etree.ElementTree as ET
 
 # From the user, ask for File Location until an Existing file is given
 def getXMLfilesInput():
+    print("Type \"Quit\" at to end the program")
     while True:
-        location = Path(input("File Location: "))
+        user_input = input("File Location: ")
+        location = Path(user_input)
         if location.exists():
             print("File Found")
-            return getXMLfiles(location)
+            if (getXMLfiles(location)):
+                return "Done"
+            else:
+                print("No XML file found at this location, try again or type \"Quit\" to exit")
+        if user_input.lower() == "quit":
+            return "Script Ended"
         elif not location.exists():
             print("No File Exists, please try again")
 
 def getXMLfiles(location):
     if location.is_dir():
+        xmlFound = False
         for file in location.iterdir():
-            print(file.resolve())
-    
+            if getXMLfiles(file):
+                xmlFound = True
+        return xmlFound
+
     else:
-        print(location.resolve())
-    return "funzies"
+        location = str(location.resolve())
+        if  not location.endswith("xml"):
+            print(location + " is not XML")
+            return False
+        else:
+            print(location + " is XML")
+            print(ET.parse(location))
+
+            return True
     
 
 def main():
     print(getXMLfilesInput())
-    print("\nDone")
 
 main()
