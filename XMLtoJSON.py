@@ -1,8 +1,7 @@
 from pathlib import Path
-import os
 import xml.etree.ElementTree as ElementTree
 
-
+# From the user, ask for File Location until an Existing file is given
 def getXMLfilesInput():
     while True:
         location = Path(input("File Location: "))
@@ -10,7 +9,7 @@ def getXMLfilesInput():
             print("File Found")
             return getXMLfiles(location)
         elif not location.exists():
-            print("No File Exists")
+            print("No File Exists, please try again")
 
 def getXMLfiles(location):
     if location.is_dir():
