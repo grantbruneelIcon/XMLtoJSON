@@ -37,14 +37,22 @@ def getXMLfiles(location):
 def convert(file):
     tree = ET.parse(file)
     testsuits = tree.getroot()
-    testsuit = testsuits.getchildren()[0]
     jsonfile = open("sample.json", "w")
-    jsonfile.write("{")
-    jsonfile.writelines(json.dumps(testsuit.tag) + ":")
-    jsonfile.writelines(json.dumps(testsuit.attrib))
-    jsonfile.write("}")
-
+    #jsonfile.write("{")
+    diction = testsuits.attrib
+    addChild(diction, testsuits)
+    json.dump(diction, jsonfile)
+    #jsonfile.write("}")
     jsonfile.close()
+
+def addChild(dict, element):
+    dict[element.tag] = []
+    for child in list(element):
+        dict[element.tag].append(child.attrib)
+    
+    
+
+
 
 def main():
     print(getXMLfilesInput())
