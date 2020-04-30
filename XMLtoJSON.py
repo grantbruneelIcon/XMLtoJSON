@@ -49,6 +49,10 @@ def addChild(dict, element):
     dict[element.tag] = []
     for child in list(element):
         dict[element.tag].append(child.attrib)
+        length = len(dict[element.tag])
+        addChild(dict[element.tag][length - 1], child)
+    if len(dict[element.tag]) < 1:
+        del dict[element.tag]
     
     
 
