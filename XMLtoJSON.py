@@ -37,25 +37,36 @@ def getXMLfiles(location):
 def convert(file):
     tree = ET.parse(file)
     testsuits = tree.getroot()
-    jsonfile = open("sample.json", "w")
-    #jsonfile.write("{")
+    saveLocation = getValidSave(file)
+    jsonfile = open(saveLocation, "w")
     diction = testsuits.attrib
     addChild(diction, testsuits)
     json.dump(diction, jsonfile)
-    #jsonfile.write("}")
     jsonfile.close()
 
 def addChild(dict, element):
-    dict[element.tag] = []
-    for child in list(element):
-        dict[element.tag].append(child.attrib)
-        length = len(dict[element.tag])
-        addChild(dict[element.tag][length - 1], child)
-    if len(dict[element.tag]) < 1:
-        del dict[element.tag]
+    try:
+        tag = list(element)[0].tag
+        dict[tag] = []
+        for child in list(element):
+            dict[tag].append(child.attrib)
+            length = len(dict[tag])
+            addChild(dict[tag][length - 1], child)
+    except:
+        pass
     
     
-
+def getValidSave(file):
+    while True:
+        location = input("Save file <" + file + "> as : ")
+        if not location.endswith(".json"):
+            print("JSON file must end with .json, please try again")
+        try:
+            open(location, "w")
+            return location
+        except:
+            print("Invalid file Path, please try agian")
+        
 
 
 def main():
