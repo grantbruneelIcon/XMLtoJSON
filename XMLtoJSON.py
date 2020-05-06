@@ -1,6 +1,7 @@
 from pathlib import Path
 import xml.etree.ElementTree as ET
 import json
+import platform
 
 # From the user, ask for File Location until an Existing file is given
 def getXMLfilesInput():
@@ -12,11 +13,11 @@ def getXMLfilesInput():
             if (getXMLfiles(location)):
                 return True
             else:
-                print("Error, no json file saved, try again or type \"Quit\" to exit")
+                print("\nError, no json file saved, try again or type \"Quit\" to exit\n")
         if user_input.lower() == "quit":
             return False
         elif not location.exists():
-            print("No File Exists, please try again")
+            print("\nNo File Exists, please try again \n")
 
 def getXMLfiles(location):
     if location.is_dir():
@@ -60,25 +61,30 @@ def addChild(dict, element):
     
     
 def getValidSave(file):
-    print("Type \"Quit\" to enter a XML file or \"Quit\" again to end the program")
+    if platform.system == "Windows":
+        slash = "\\"
+    else:
+        slash = "/"
+    print("\nType \"Quit\" to enter a XML file or \"Quit\" again to end the program\n")
     while True:
-        location = input("Save file <" + file + "> as : ")
+        location = input("Save file <" + file + "> in directory : ")
+        jsonfile = Path(file).name
+        jsonfile = jsonfile.replace("xml", "json")
+        attempt = Path(location)
+        if attempt.is_dir():
+            return str(attempt.absolute()) + slash + jsonfile
         if location.lower() == "quit":
             return False
-        if not location.endswith(".json"):
-            print("JSON file must end with .json, please try again")
-        else :
-            try:
-                open(location, "w")
-                return location
-            except:
-                print("Invalid file Path, please try agian. If you are trying to save to a new directory, please quit, create the directory, and try again")
+        else:
+            print("\nInvalid file Path, please try agian. If you are trying to save to a new directory, please quit, create the directory, and try again\n")
+
         
+                
 
 
 def main():
     if getXMLfilesInput():
-        print("File successfully saved")
+        print("\nFile successfully saved")
     else: 
         print("Program was quit")
 
